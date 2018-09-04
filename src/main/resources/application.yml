@@ -1,8 +1,11 @@
 spring:
   application:
     name: ajaxdemo
-  freemarker:
-    suffix: .html
+  datasource:
+    url: jdbc:mysql://localhost:3306/ajaxdemo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
 
 server:
   port: 8888
