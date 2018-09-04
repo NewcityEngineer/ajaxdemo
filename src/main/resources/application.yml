@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ajaxdemo
+  freemarker:
+    suffix: .html
+
+server:
+  port: 8888
